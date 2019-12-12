@@ -30,9 +30,4 @@ node{
             echo 'phase d_intallation de pachake dans votre repo local '
             bat 'mvn install'
         }
-        stage('deploiement vers nexus') 
-        { 
-            echo 'phase de deploiement artefact dans le référentiel distant'
-            bat 'mvn deploy'
-        }
- }
+      }
